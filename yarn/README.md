@@ -7,7 +7,7 @@ image](https://hub.docker.com/_/node/) and specifying the `yarn` entrypoint:
 
 ```yaml
 steps:
-- name: node:10.15.1
+- name: node:12.16.1
   entrypoint: yarn
   args: ['install']
 ```
